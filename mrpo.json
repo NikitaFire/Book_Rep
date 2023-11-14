@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "User1",
+      "email": "user1@example.com",
+      "password": "password1"
+    },
+    {
+      "id": 2,
+      "name": "User2",
+      "email": "user2@example.com",
+      "password": "password2"
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "name": "Collection1",
+      "user_id": 1,
+      "games": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Collection2",
+      "user_id": 2,
+      "games": [
+        3,
+        4
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post1",
+      "author": "User1",
+      "description": "Description1",
+      "category_id": 1,
+      "recipe_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Post2",
+      "author": "User2",
+      "description": "Description2",
+      "category_id": 2,
+      "recipe_id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "username": "User1",
+      "message": "Comment1",
+      "date_creating": "2023-10-10",
+      "post_id": 1
+    },
+    {
+      "id": 2,
+      "username": "User2",
+      "message": "Comment2",
+      "date_creating": "2023-10-11",
+      "post_id": 1
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Game1",
+      "release_date": "2023-01-01",
+      "description": "Description1",
+      "developer_id": 1,
+      "processor_id": 1,
+      "graphics_card_id": 1,
+      "os_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Game2",
+      "release_date": "2023-02-01",
+      "description": "Description2",
+      "developer_id": 2,
+      "processor_id": 2,
+      "graphics_card_id": 2,
+      "os_id": 2
+    }
+  ],
+  "developers": [
+    {
+      "id": 1,
+      "name": "Developer1"
+    },
+    {
+      "id": 2,
+      "name": "Developer2"
+    }
+  ],
+  "graphics_cards": [
+    {
+      "id": 1,
+      "name": "GraphicsCard1",
+      "rating": 9
+    },
+    {
+      "id": 2,
+      "name": "GraphicsCard2",
+      "rating": 8
+    }
+  ],
+  "operating_systems": [
+    {
+      "id": 1,
+      "name": "OS1",
+      "rating": 9
+    },
+    {
+      "id": 2,
+      "name": "OS2",
+      "rating": 8
+    }
+  ],
+  "processors": [
+    {
+      "id": 1,
+      "name": "Processor1",
+      "rating": 9
+    },
+    {
+      "id": 2,
+      "name": "Processor2",
+      "rating": 8
+    }
+  ]
+}
